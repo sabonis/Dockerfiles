@@ -14,6 +14,6 @@ RUN git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/rub
 ENV PATH ~/.rbenv/bin:$PATH
 RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-# Install and setup RUBY 2.1.5
-RUN bash -c 'rbenv install 2.1.5'
-RUN bash -c 'rbenv global 2.1.5'
+# Install and setup RUBY 2.2.0
+RUN bash -c 'rbenv install 2.2.0'
+RUN bash -c 'rbenv global 2.2.0'
