@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'sabonis' => 'sabonis#index'
   get 'welcome/index'
 
   resources :articles do
